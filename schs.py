@@ -1,7 +1,8 @@
 # Sh4dow18 Chrome-History Hack Script
 from platform import system
 from getpass import getuser
-import sqlite3
+import sqlite3 
+from re import findall
 
 
 def ObtainUserPath(what_platform):
@@ -31,11 +32,22 @@ def ObtainChromeHistory(what_platform, user_path):
     return chrome_history
 
 
+def ObtainYoutubeChannels(chrome_history):
+    channels_visited = []
+    for url_information in chrome_history:
+        results = findall("https://www.youtube.com/c/([A-Za-z0-9]+)", url_information[2])
+        if len(results) != 0:
+            if results[0] not in channels_visited:
+                channels_visited.append(results[0])
+    return channels_visited
+
+
 def main():
     what_platform = system()
     user_path = ObtainUserPath(what_platform)
     chrome_history = ObtainChromeHistory(what_platform, user_path)
-    print(chrome_history)
+    channels_visited = ObtainYoutubeChannels(chrome_history)
+    print(channels_visited)
 
 
 if __name__ == "__main__":
