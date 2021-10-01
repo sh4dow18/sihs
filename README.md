@@ -1,5 +1,7 @@
 # Sh4dow18 Information Hack Script
 
+![SIHS](readme/01_sihs.png)
+
 # Overview
 
 Sh4dow18 Information Hack Script (SIHS) is a script that allows you to see how a cybercriminal
@@ -13,11 +15,15 @@ Version: **1.0**
 
 # What is Python?
 
+![PYTHON](readme/02_python.jpg)
+
 *Python* is an interpreted programming language whose philosophy emphasizes the readability of its
 code. It is a multi-paradigm programming language, since it partially supports object-orientation,
 imperative programming and functional programming.
 
 # Using SIHS
+
+![LOGO](readme/03_sihs_logo.png)
 
 First, you have to download the repository. To download it, you can download the compressed file
 (.zip) or clone the repository, with the “git” program installed, through the CMD in “Windows” or
