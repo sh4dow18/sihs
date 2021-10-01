@@ -46,8 +46,8 @@ executed in the form:
 
 ```console
 C:\Users\<usuario>\<ruta>\pip3 install -U py2exe
-C:\Users\<usuario>\<ruta>\python compile_windows.py install
-C:\Users\<usuario>\<ruta>\python compile_windows.py py2exe
+C:\Users\<usuario>\<ruta>\python compiler_windows.py install
+C:\Users\<usuario>\<ruta>\python compiler_windows.py py2exe
 ```
 
 This will compile the script and create the ".exe".
