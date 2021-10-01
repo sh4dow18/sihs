@@ -40,12 +40,19 @@ Later, to be able to share the program without creating suspicions, it must be c
 when passing it as *Python* program, the target can see the code or obtain your credentials and,
 therefore, the attack fails.
 
-*Python* is an interpreted language, so it cannot be compiled normally, since it is not designed for
-that. In order to compile the file in **Windows**, the attached program "compiler_windows.py" must be
-executed, which will compile the script and create the ".exe". If the user to be attacked owns
-**Linux**, the "pyinstaller" program must be downloaded with "pip3".
+*Python* is an interpreted language, so it cannot be compiled normally as it is not designed for
+that. To compile the file in **Windows**, the attached program "compiler_windows.py" must be
+executed in the form:
 
-Example for Linux:
+```console
+C:\Users\<usuario>\<ruta>\pip3 install -U py2exe
+C:\Users\<usuario>\<ruta>\python compile_windows.py install
+C:\Users\<usuario>\<ruta>\python compile_windows.py py2exe
+```
+
+This will compile the script and create the ".exe".
+
+If the user to be attacked has **Linux**, the "pyinstaller" program must be downloaded with "pip3".
 
 ```bash
 pip3 install pyinstaller
