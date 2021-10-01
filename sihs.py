@@ -1,4 +1,4 @@
-# Sh4dow18 Information Hack Script
+# Sh4dow18 Information Hack Script (SIHS)
 # Version: 1.0
 # Made by: Sh4dow18
 # Github: https://github.com/sh4dow18

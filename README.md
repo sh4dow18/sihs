@@ -1,3 +1,5 @@
+[//]: # (Version 1.0)
+
 # Sh4dow18 Information Hack Script
 
 ![SIHS](readme/01_sihs.png)
@@ -72,6 +74,8 @@ files to work. In the case of "compiler_windows.py", leaves the necessary folder
 Automatically when the program is executed it will not show anything on the screen, however it will send the email with the data.
 
 # Do you want to know more? READ THIS
+
+![KNOW](readme/04_know_more.png)
 
 The program at startup uses the result of functions within variables, such as the variables
 "what_system", "what_platform", "user" and "host". The other variables obtain the information

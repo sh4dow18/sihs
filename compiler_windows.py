@@ -1,3 +1,5 @@
+# Version 1.0
+
 from distutils.core import setup
 import py2exe
 
