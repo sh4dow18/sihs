@@ -23,10 +23,6 @@ Version: **1.0**
 code. It is a multi-paradigm programming language, since it partially supports object-orientation,
 imperative programming and functional programming.
 
-# Python Version
-
-Version: 3.9.7
-
 # Using SIHS
 
 ![LOGO](readme/03_sihs_logo.png)
