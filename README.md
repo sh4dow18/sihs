@@ -23,6 +23,10 @@ Version: **1.0**
 code. It is a multi-paradigm programming language, since it partially supports object-orientation,
 imperative programming and functional programming.
 
+# Python Version
+
+Version: 3.9.7
+
 # Using SIHS
 
 ![LOGO](readme/03_sihs_logo.png)
@@ -53,9 +57,9 @@ that. To compile the file in **Windows**, the attached program "compiler_windows
 executed in the form:
 
 ```console
-C:\Users\<usuario>\<ruta>\pip3 install -U py2exe
-C:\Users\<usuario>\<ruta>\python compiler_windows.py install
-C:\Users\<usuario>\<ruta>\python compiler_windows.py py2exe
+C:\Users\usuario\ruta\pip3 install -U py2exe
+C:\Users\usuario\ruta\python compiler_windows.py install
+C:\Users\usuario\ruta\python compiler_windows.py py2exe
 ```
 
 This will compile the script and create the ".exe".
