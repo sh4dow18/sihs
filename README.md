@@ -9,7 +9,7 @@ history to obtain personal information.
 
 # Version
 
-Version: **1.0**
+Version: **1.1**
 
 # License
 
